@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24173" started-at="2019-04-06T09:42:11Z" finished-at="2019-04-06T09:42:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24173" started-at="2019-04-06T09:42:11Z" finished-at="2019-04-06T09:42:35Z">
+      <class name="com.zoopla.tests.ZooplaTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zoopla.tests.ZooplaTest@39529185]" name="init" is-config="true" duration-ms="10244" started-at="2019-04-06T09:42:01Z" finished-at="2019-04-06T09:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="zooplaTest(java.util.Hashtable)[pri:0, instance:com.zoopla.tests.ZooplaTest@39529185]" name="zooplaTest" duration-ms="24122" started-at="2019-04-06T09:42:11Z" data-provider="dp" finished-at="2019-04-06T09:42:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Row=5, City=London}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zooplaTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.tests.ZooplaTest@39529185]" name="tearDown" is-config="true" duration-ms="884" started-at="2019-04-06T09:42:35Z" finished-at="2019-04-06T09:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zoopla.tests.ZooplaTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
