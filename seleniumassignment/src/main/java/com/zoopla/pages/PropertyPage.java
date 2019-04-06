@@ -12,7 +12,6 @@ import org.openqa.selenium.support.PageFactory;
 public class PropertyPage {
 	private WebDriver driver;
 	private int pricingLinksCount;
-	/*@FindBy(xpath = "//li[contains(@id,'listing_')]/div/div[2]/a")*/
 	@FindBy(css = "li[id*='listing_']>div>div:nth-child(2)>a")
 	private List<WebElement> allPropertyPricingLinks;
 
@@ -22,14 +21,12 @@ public class PropertyPage {
 	}
 
 	public PropertyPage printPropertyPricing() {
-		String requiredLinkText = "";
 		List<String> priceList = new ArrayList<String>();
 		int pricingLinksCount = allPropertyPricingLinks.size();
 		this.pricingLinksCount = pricingLinksCount;
 		for (int i = 0; i < pricingLinksCount; i++) {
 			String pricingValue = allPropertyPricingLinks.get(i).getText();
 			String[] pricingValueArray = pricingValue.split(" ");
-			//pricingValue = pricingValueArray[0].substring(1);
 			priceList.add(pricingValueArray[0]);
 		}
 		// sorting in descending order
