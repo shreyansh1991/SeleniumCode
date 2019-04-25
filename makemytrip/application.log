@@ -1,0 +1,24 @@
+2019-04-26 00:41:30,538  INFO [main] BaseTest:27 - Browser from config file is chrome
+2019-04-26 00:41:33,530  INFO [main] BaseTest:34 - Chrome driver is initialized.
+2019-04-26 00:41:34,738  INFO [main] BaseTest:57 - URL from property file is https://www.makemytrip.com
+2019-04-26 00:41:37,394  INFO [main] BaseTest:52 - Navigated to Required URL
+2019-04-26 00:41:37,397  INFO [main] BaseTest:12 - <----makeMyTripTest  is Started---->
+2019-04-26 00:41:39,649  INFO [main] BaseTest:65 - Actual Text is Mumbai, India
+2019-04-26 00:41:39,649  INFO [main] BaseTest:74 - still waiting for Delhi to be displayed in suggestions
+2019-04-26 00:41:40,698  INFO [main] BaseTest:65 - Actual Text is Delhi, India
+2019-04-26 00:41:42,108  INFO [main] BaseTest:65 - Actual Text is Bangalore, India
+2019-04-26 00:41:43,877  INFO [main] BaseTest:103 - currentYear is April2019
+2019-04-26 00:41:43,912  INFO [main] BaseTest:117 - currentMonth is April2019
+2019-04-26 00:41:44,121  INFO [main] BaseTest:103 - currentYear is April2019
+2019-04-26 00:41:44,168  INFO [main] BaseTest:117 - currentMonth is April2019
+2019-04-26 00:42:03,178 ERROR [main] BaseTest:21 - <----makeMyTripTest  was Failed---->
+2019-04-26 00:42:04,207 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-04-26 00:42:04,220 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-04-26 00:42:04,220 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-04-26 00:42:04,220 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-04-26 00:42:04,220 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Shreyansh%20Jain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-04-26 00:42:04,517 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-04-26 00:42:04,517 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-04-26 00:42:04,517 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-04-26 00:42:04,517 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-04-26 00:42:04,517 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Shreyansh%20Jain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
